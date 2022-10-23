@@ -181,13 +181,12 @@ body{
     color: var(--green);
 }
 .products-box{
-    height: 386px;
+    height: 352px;
     width: 15.6%!important;
     margin: 5px;
     text-align: center;
 }
 .product-text{
-    height: 305px;
     padding: 15px 8px;
     border: 1px solid var(--lightgreen);
     position: relative;
@@ -212,7 +211,7 @@ body{
 
 .product-text img{
     width: 80%;
-    height: 200px;
+    height: 160px;
 }
 .product-text p{
     color: var(--darkgreen);
@@ -224,7 +223,7 @@ body{
     height: 81.8px;
     width: 99.8%;
     margin: 0px 0 0 0;
-
+    padding: 10px 0; 
     /* background-color: var(--gray); */
     display: none;
     border-left: 1px solid var(--lightgreen);
@@ -235,7 +234,7 @@ body{
 .product-add-to-card a{
     display: inline-block;
     text-decoration: none;
-    background: var(--orange);
+    background: var(--green);
     color: var(--white);
     width: 70%;
     padding: 10px;
@@ -256,3 +255,50 @@ body{
     display: block;
 }
 /************ End products Section ********/
+/************ Start Footer Section ********/
+.footer{
+    background-color: var(--lightgreen)!important;
+    margin: 20px 0px 0 0 ;
+    padding: 20px 0;
+    
+}
+.footer-container{
+   height: max-content;
+   padding: 5px 0px 20px 66px;
+   margin: auto;
+
+}
+.f-colum{
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* width: 30%!important; */
+    margin: auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+.f-colum-content h3{
+    padding: 30px 20px;
+    
+}
+.f-colum-content form input:not(form input:last-child){
+    outline: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;;
+}
+.f-colum-content input:last-child{
+    outline: none;
+    width: 70px;
+    font-size: 17px;
+    padding: 7px;
+    background: var(--blue);
+    color: var(--white);
+    border-radius: 5% ;
+    border: none;
+}
+/* .f-colum::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+/************ End Footer Section ********/
